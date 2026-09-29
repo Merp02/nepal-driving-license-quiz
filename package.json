@@ -1,0 +1,36 @@
+{
+  "name": "nepal-driving-license-quiz",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bilingual (Nepali/English) practice quiz and mock exam for the Nepal driving license written test, built from the official DoTM question bank.",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint",
+    "test": "vitest run",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@fontsource/mukta": "^5.3.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router": "^8.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.19.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.86.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.2"
+  }
+}

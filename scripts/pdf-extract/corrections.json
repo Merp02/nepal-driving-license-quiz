@@ -1,0 +1,36 @@
+{
+  "_about": "Manual corrections applied on top of the automatic extraction. Every entry says what the source PDF contains and why it was changed. Question numbers are the official numbers from the question bank.",
+  "nepali": [
+    {"id": 73, "field": "options.B", "from": "Technical hydro camera (", "to": "Technical hydro camera", "reason": "Stray '(' from the option marker that the source split across two lines."},
+    {"id": 139, "field": "options.D", "from": "मोटरसाइकल र पोपेड", "to": "मोटरसाइकल र मोपेड", "reason": "Typo in source: 'पोपेड' for 'मोपेड' (moped)."},
+    {"id": 191, "field": "options.B", "from": "नागरिकता (ख)", "to": "नागरिकता", "reason": "Source repeats the label '(ख)' before '(ग)'."},
+    {"id": 268, "field": "options.C", "from": "Manul Transmission भएकोले", "to": "Manual Transmission भएकोले", "reason": "Misspelled English word inside the Nepali option."},
+    {"id": 352, "field": "question", "from": "भएकोा", "to": "भएको", "reason": "Stray vowel sign in source that renders as a broken cluster."},
+    {"id": 367, "field": "options.B", "from": "Clauses & Excelator", "to": "Clutch & Accelerator", "reason": "Misspelled English words inside the Nepali option."},
+    {"id": 499, "field": "options", "from": "Preeti legacy-font text", "to": "घरपालुवा जन्तु / जंगल / जंगल, वन्यजन्तु आरक्ष / चिडियाखाना", "reason": "These four options are typed in the legacy Preeti font (no Unicode text layer); converted and checked against the page image and OCR."}
+  ],
+  "english": [
+    {"id": 26, "field": "options.B", "to": "Switch on the headlights and turn", "reason": "Capitalisation."},
+    {"id": 54, "field": "question", "to": "In which gear should the vehicle be during overtaking?", "reason": "Missing question mark."},
+    {"id": 66, "field": "question", "to": "Which gear should be used if the wheel gets stuck in mud?", "reason": "Mistranslation: हिलो means mud, not water."},
+    {"id": 110, "field": "options.B", "to": "In new condition", "reason": "Mistranslation: source 'नयाँ अवस्थाको' was rendered as 'Runs on gas'."},
+    {"id": 133, "field": "options.B", "to": "Black letters on a yellow plate", "reason": "Garbled translation ('Black yellow letter on a yellow plate')."},
+    {"id": 149, "field": "options.C", "to": "Driving in an uncontrolled manner", "reason": "Translation inverted the Nepali meaning ('असंयमित रुपमा सवारी चलाउने')."},
+    {"id": 177, "field": "question", "to": "According to the Vehicle and Transport Management Act, 2049 and Rules, 2054, what kind of vehicle transfer of ownership cannot be done?", "reason": "Double question mark."},
+    {"id": 183, "field": "options.A", "to": "Drive a vehicle on the road", "reason": "Grammar."},
+    {"id": 203, "field": "options.A", "to": "Not night-blind", "reason": "Mistranslation: रतन्धो means night blindness, not colour blindness."},
+    {"id": 206, "field": "options.D", "to": "Imprisonment up to 6 months or a fine up to Rs. 15,000", "reason": "Translation added 'and vehicle seizure', which is not in the Nepali option."},
+    {"id": 268, "field": "options.B", "to": "Because it has automatic transmission", "reason": "Casing."},
+    {"id": 268, "field": "options.C", "to": "Because it has manual transmission", "reason": "Misspelling ('Manul')."},
+    {"id": 279, "field": "options.A", "to": "Twist the accelerator (throttle)", "reason": "Garbled translation ('accilarate the accelerator')."},
+    {"id": 287, "field": "question", "to": "Where is the piston located?", "reason": "Mistranslation: the Nepali asks what the piston sits inside."},
+    {"id": 292, "field": "options.D", "to": "It produces no electricity", "reason": "Mistranslation ('Non of the above')."},
+    {"id": 307, "field": "options.D", "to": "Nepal Vehicle Emission Standard, 2082 B.S.", "reason": "Stray ')' at the start."},
+    {"id": 322, "field": "options", "to": ["Vehicle testing office", "Transport Management Office", "Both A and B", "Neither of them"], "reason": "The English PDF lists different options (C 'Transport Service Office', D 'All of the above'); re-translated from the official Nepali options."},
+    {"id": 340, "field": "options.A", "to": "To evade the traffic police", "reason": "Unclear wording ('To evade the traffic's eyes')."},
+    {"id": 353, "field": "options.D", "to": "Lay them on their side (recovery position)", "reason": "Garbled translation ('to turn the a lateral position')."},
+    {"id": 408, "field": "question", "to": "On which part of the road are lane-separating markings drawn?", "reason": "Stray text ('edge, signal') at the start of the question."},
+    {"id": 427, "field": "options.C", "to": "Refreshments", "reason": "Misspelled translation ('Hot Tea and brevarae') of 'जलपान'."},
+    {"id": 454, "field": "options", "to": ["Left curve", "Keep left", "Left turn", "Right turn"], "reason": "The English PDF shifted the meanings (B 'Narrow Left Shoulder', C 'Keep Left of your vehicle'); re-translated from the official Nepali options."}
+  ]
+}

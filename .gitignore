@@ -141,3 +141,11 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Vercel CLI
+.vercel
+
+# Question-bank extraction working files (see scripts/pdf-extract)
+scripts/pdf-extract/work/
+__pycache__/
+*.pyc

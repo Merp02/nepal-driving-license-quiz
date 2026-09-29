@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+
+/*
+ * Palette: navy ink for text and primary actions, a quiet grey for panels,
+ * road-sign blue for selection and focus, and a clear green/red pair that is
+ * only ever used for right and wrong. The crimson and flag blue appear only in
+ * the double-pennant mark.
+ */
+@theme {
+  --font-sans: 'Mukta', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-ink: #1c2039;
+  --color-ink-2: #474c63;
+  --color-ink-3: #686d82;
+  --color-mist: #f1f2f5;
+  --color-line: #d8dbe2;
+  --color-track: #c9ccd5;
+  --color-sign: #1557a8;
+  --color-sign-tint: #e4edf9;
+  --color-go: #1f6f45;
+  --color-go-tint: #dff0e6;
+  --color-stop: #a8281e;
+  --color-stop-tint: #f6e0dd;
+  --color-crimson: #dc143c;
+  --color-flagblue: #003893;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background: #fff;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1.0625rem;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  button:not(:disabled),
+  [role='button']:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-sign);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-ink px-6 py-3 text-lg leading-tight font-bold text-white no-underline transition-colors hover:bg-[#2d3356] disabled:cursor-not-allowed disabled:bg-mist disabled:text-ink-3;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl border-2 border-ink bg-white px-5 py-2.5 text-lg leading-tight font-semibold text-ink no-underline transition-colors hover:bg-mist disabled:cursor-not-allowed disabled:border-line disabled:text-ink-3 disabled:hover:bg-white;
+  }
+
+  .btn-ghost {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-lg leading-tight font-semibold text-ink-2 transition-colors hover:bg-mist hover:text-ink;
+  }
+
+  .btn-inverse {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl bg-white px-6 py-3 text-lg leading-tight font-bold text-ink no-underline transition-colors hover:bg-sign-tint;
+  }
+
+  .link-underline {
+    @apply rounded-sm font-semibold underline decoration-2 underline-offset-[5px] transition-colors hover:decoration-sign;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
