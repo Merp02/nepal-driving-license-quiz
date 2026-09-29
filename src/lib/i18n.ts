@@ -34,7 +34,7 @@ export function optionLabel(id: OptionId, lang: Lang): string {
 type Vars = Record<string, string | number>
 
 const en = {
-  appName: 'Nepal Driving License Quiz',
+  appName: 'Nepal Driving License Quiz for my babes Samikshyaaaa',
   appNameShort: 'License Quiz',
   appTagline: 'Written test practice, categories A and K',
   skipToContent: 'Skip to content',
@@ -171,7 +171,7 @@ const en = {
 type Key = keyof typeof en
 
 const ne: Record<Key, string> = {
-  appName: 'नेपाल ड्राइभिङ लाइसेन्स क्विज',
+  appName: 'नेपाल ड्राइभिङ लाइसेन्स क्विज मेरी प्रिय समीक्षाको लागि',
   appNameShort: 'लाइसेन्स क्विज',
   appTagline: 'वर्ग A र K लिखित परीक्षा अभ्यास',
   skipToContent: 'मुख्य सामग्रीमा जानुहोस्',
