@@ -1,0 +1,116 @@
+{
+  "examName": "Nepal Driving License Written Examination",
+  "examNameNepali": "सवारी चालक अनुमतिपत्र लिखित परीक्षा",
+  "licenseCategories": {
+    "english": "Category A (motorcycle / scooter / moped) and category K (scooter / moped)",
+    "nepali": "वर्ग \"क/A\" (मोटरसाइकल/स्कुटर/मोपेड) र वर्ग \"ट/K\" (स्कुटर/मोपेड)"
+  },
+  "source": {
+    "publisher": "Government of Nepal, Ministry of Physical Infrastructure and Transport, Department of Transport Management",
+    "publisherNepali": "नेपाल सरकार, भौतिक पूर्वाधार तथा यातायात मन्त्रालय, यातायात व्यवस्था विभाग",
+    "revision": "Fiscal year 2082/2083",
+    "revisionNepali": "परिमार्जन आ.व. २०८२/२०८३",
+    "rulesSection": "कार्यालयहरूलाई निर्देशन (Instructions to offices), last page of the question bank"
+  },
+  "totalQuestionBankSize": 500,
+  "questionsPerExam": 25,
+  "totalMarks": 100,
+  "maximumAchievableMarks": 100,
+  "marksPerQuestion": 4,
+  "allQuestionsEqualMarks": true,
+  "passingMarks": 60,
+  "passingPercentage": 60,
+  "durationMinutes": 30,
+  "categories": [
+    {
+      "id": "vehicle-operation",
+      "nameEnglish": "Vehicle operation",
+      "nameNepali": "सवारी सञ्चालन",
+      "titleEnglish": "Knowledge of vehicle operation",
+      "titleNepali": "सवारी सञ्चालन सम्बन्धी ज्ञान",
+      "questionRange": [
+        1,
+        130
+      ],
+      "poolSize": 130,
+      "questionsInExam": 6,
+      "marksPerQuestion": 4,
+      "totalMarks": 24
+    },
+    {
+      "id": "laws",
+      "nameEnglish": "Vehicle laws and regulations",
+      "nameNepali": "सवारी ऐन नियम",
+      "titleEnglish": "Knowledge of vehicle laws and regulations",
+      "titleNepali": "सवारी ऐन नियम सम्बन्धी ज्ञान",
+      "questionRange": [
+        131,
+        220
+      ],
+      "poolSize": 90,
+      "questionsInExam": 5,
+      "marksPerQuestion": 4,
+      "totalMarks": 20
+    },
+    {
+      "id": "technical",
+      "nameEnglish": "Technical knowledge",
+      "nameNepali": "प्राविधिक ज्ञान",
+      "titleEnglish": "Technical and mechanical knowledge of vehicles",
+      "titleNepali": "सवारी साधनको प्राविधिक तथा यान्त्रिक ज्ञान",
+      "questionRange": [
+        221,
+        300
+      ],
+      "poolSize": 80,
+      "questionsInExam": 3,
+      "marksPerQuestion": 4,
+      "totalMarks": 12
+    },
+    {
+      "id": "environment",
+      "nameEnglish": "Environment and pollution",
+      "nameNepali": "वातावरण प्रदूषण",
+      "titleEnglish": "Conceptual knowledge of environmental pollution",
+      "titleNepali": "वातावरण प्रदूषण सम्बन्धी अवधारणात्मक ज्ञान",
+      "questionRange": [
+        301,
+        330
+      ],
+      "poolSize": 30,
+      "questionsInExam": 2,
+      "marksPerQuestion": 4,
+      "totalMarks": 8
+    },
+    {
+      "id": "accident-awareness",
+      "nameEnglish": "Accident awareness",
+      "nameNepali": "दुर्घटना सचेतना",
+      "titleEnglish": "Knowledge of accident awareness",
+      "titleNepali": "दुर्घटना सचेतना सम्बन्धी ज्ञान",
+      "questionRange": [
+        331,
+        390
+      ],
+      "poolSize": 60,
+      "questionsInExam": 3,
+      "marksPerQuestion": 4,
+      "totalMarks": 12
+    },
+    {
+      "id": "traffic-signs",
+      "nameEnglish": "Traffic signs",
+      "nameNepali": "ट्राफिक सङ्केत",
+      "titleEnglish": "Knowledge of traffic signs",
+      "titleNepali": "ट्राफिक सङ्केत सम्बन्धी ज्ञान",
+      "questionRange": [
+        391,
+        500
+      ],
+      "poolSize": 110,
+      "questionsInExam": 6,
+      "marksPerQuestion": 4,
+      "totalMarks": 24
+    }
+  ]
+}
