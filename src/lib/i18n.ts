@@ -34,13 +34,13 @@ export function optionLabel(id: OptionId, lang: Lang): string {
 type Vars = Record<string, string | number>
 
 const en = {
-  appName: 'Nepal Driving License Quiz for my babes Samikshya',
+  appName: 'Nepal Driving License Quiz',
   appNameShort: 'License Quiz',
   appTagline: 'Written test practice, categories A and K',
   skipToContent: 'Skip to content',
   langLabel: 'Question language',
 
-  homeTitle: 'Nepal Driving License Quiz for my babes Samikshya',
+  homeTitle: 'Nepal Driving License Quiz',
   homeLede:
     'Practise all 500 official questions for the category A and K (motorcycle, scooter and moped) written test, then take a timed mock exam marked the same way as the real one.',
   practiceMode: 'Practice mode',
@@ -171,13 +171,13 @@ const en = {
 type Key = keyof typeof en
 
 const ne: Record<Key, string> = {
-  appName: 'नेपाल ड्राइभिङ लाइसेन्स क्विज मेरी प्रिय समीक्षाको लागि',
+  appName: 'नेपाल ड्राइभिङ लाइसेन्स क्विज',
   appNameShort: 'लाइसेन्स क्विज',
   appTagline: 'वर्ग A र K लिखित परीक्षा अभ्यास',
   skipToContent: 'मुख्य सामग्रीमा जानुहोस्',
   langLabel: 'प्रश्नको भाषा',
 
-  homeTitle: 'नेपाल ड्राइभिङ लाइसेन्स क्विज मेरी मायालु समीक्षाको लागि',
+  homeTitle: 'नेपाल ड्राइभिङ लाइसेन्स क्विज',
   homeLede:
     'वर्ग A र K (मोटरसाइकल, स्कुटर र मोपेड) को लिखित परीक्षाका सबै ५०० आधिकारिक प्रश्न अभ्यास गर्नुहोस्, अनि वास्तविक परीक्षाकै नियमअनुसार समय र अंक गणना हुने नमुना परीक्षा दिनुहोस्।',
   practiceMode: 'अभ्यास मोड',
